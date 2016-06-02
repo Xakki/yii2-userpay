@@ -41,14 +41,14 @@ class UserPay extends ActiveRecord
     {
         return [
             'up_id'          => 'Id',
-            'up_time_cr'             => Yii::t('app', 'Date create'),
-            'up_time_up'   => Yii::t('app', 'Date update'),
-            'up_user_id' => Yii::t('app', 'User'),
-            'up_status'          => Yii::t('app', 'Status'),
-            'up_likes'        => Yii::t('app', 'Likes'),
-            'up_likes_bonus'      => Yii::t('app', 'Bonus'),
-            'up_paysystem'      => Yii::t('app', 'Pay system'),
-            'up_amount'      => Yii::t('app', 'Amount'),
+            'up_time_cr'             => Yii::t('app/model', 'Date create'),
+            'up_time_up'   => Yii::t('app/model', 'Date update'),
+            'up_user_id' => Yii::t('app/model', 'User'),
+            'up_status'          => Yii::t('app/model', 'Status'),
+            'up_likes'        => Yii::t('app/model', 'Likes'),
+            'up_likes_bonus'      => Yii::t('app/model', 'Bonus'),
+            'up_paysystem'      => Yii::t('app/model', 'Pay system'),
+            'up_amount'      => Yii::t('app/model', 'Amount'),
         ];
     }
 
